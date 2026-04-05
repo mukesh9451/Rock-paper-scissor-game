@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock scissor and paper game</title>
+    <style>
+        body{
+            background-color: rgb(25,25,25);
+            color: white;
+            font-family: arial;
+        }
+        h1{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .image{
+            height: 50px;
+        }
+        .move-button{
+            background-color: transparent;
+            border: 3px solid white;
+            width: 100px;
+            height: 100px;
+            border-radius: 60px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .result2{
+            font-size:25px ;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+        .score2{
+            margin-top: 60px;
+        }
+        .btn4,
+        .btn5{
+            border-color: white;
+            border: none;
+            font-size: 15px;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Rock scissor and paper game</h1>
+        
+            <button class="btn1 move-button"  >
+                 <img class="image" src="image/rock.png">               
+               
+            </button>
+            <button class="btn2 move-button" >
+                  <img class="image" src="image/paper.png">
+                
+            </button>
+            <button  class="btn3 move-button" >
+                  <img  class="image" src="image/scissor.png">
+                
+            </button>
+            <p class="result1 result2"></p>
+            <p class="moves1"></p>
+            <p class="score1 score2"></p>
+            <button class="btn4">
+                Reset Score
+            </button>
+            <button class="btn5">Auto Play</button>
+        
+    
+    <script src="Rock-Paper-Scissor.js"></script>
+</body>
+
+</html>
